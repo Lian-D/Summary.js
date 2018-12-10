@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="gist.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<div align="center">
+    <!--Text box for input-->
+    <p>Please enter your text here</p>
+    <textarea id = "paragraph" style="height:200px; width:600px" >
+    </textarea>
+</div>
+<div align="center">
+    <!--Button to analyze the input textbox-->
+    <button onclick="gist()">Give me the gist</button>
+</div>
+<div align="center">
+    <!--Text box for output-->
+    <p>This is the gist</p>
+    <textarea id = "gist" name="gist" style="height:200px; width:600px">gist here</textarea>
+</div>
+
+<script>
+    function gist() {
+        alert("Analyzing");
+        const input = document.getElementById('paragraph').value;
+        var output = splitStringIntoArray(input);
+        var gist = output[0];
+        alert(gist)
+
+        document.getElementById('gist').value = gist;
+    }
+
+    function splitStringIntoArray(str) {
+        var inputArray = str.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|")
+        return inputArray;
+    }
+
+</script>
+
+</body>
+</html>
