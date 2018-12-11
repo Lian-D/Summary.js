@@ -1,10 +1,11 @@
+var stringFreqStopStringMap = new Map([]);
 
 function gist() {
+    stringFreqStopStringMap = new Map([])
     alert("Analyzing");
     const input = document.getElementById('paragraph').value;
     var arrList = splitStringIntoArray(input);
     var  gist = analyzeArrayforStopWords(arrList).join("");
-    // var gist = output[0];
     alert(gist)
 
     document.getElementById('gist').value = gist;
@@ -54,13 +55,5 @@ function containsAny(str, arr) {
         }
     }
     return contains;
-
-    // for (var i = 0; i != arr.length; i++){
-    //     var substring = arr[i];
-    //     if (str.indexOf(substring) != - 1){
-    //         return false
-    //         }
-    //     }
-    //     return true
 }
 
