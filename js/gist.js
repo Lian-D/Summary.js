@@ -24,7 +24,7 @@ function returnArrayOfLowestFourScores() {
 
 //splits the string into substrings by sentence
 function splitStringIntoArray(str) {
-    var inputArray = str.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|")
+    var inputArray = str.replace(/(\.+|\:|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|")
     return inputArray;
 }
 
@@ -46,7 +46,7 @@ function analyzeArrayforStopWords(arr) {
         "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in",
         "out", "on", "off", "over", "under", "again", "then", "once", "here", "there", "when",
         "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no",
-        "nor", "not", "only", "own", "same", "so", "than", "too", "very", "the"];
+        "nor", "not", "only", "own", "same", "so", "than", "too", "very", "the", "a"];
 
     for (var i = 0; i < arr.length; i++) {
         var stopScore = scoreArray(arr[i], stopWords);
