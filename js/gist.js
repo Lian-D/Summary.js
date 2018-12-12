@@ -1,4 +1,6 @@
 var stringFreqStopStringMap = new Map([]);
+var sentenceLength = 0
+var firstSentence = null
 
 function gist() {
     stringFreqStopStringMap = new Map([])
@@ -7,14 +9,13 @@ function gist() {
     var arrList = splitStringIntoArray(input);
     analyzeArrayforStopWords(arrList);
     var gist = returnArrayOfLowestFourScores().join(" ");
-    alert(gist)
 
-    document.getElementById('gist').value = gist;
+    document.getElementById('gist').value = (firstSentence+ " ").concat(gist);
 }
 function returnArrayOfLowestFourScores() {
     var finalArrayValues = []
 
-    for (var i = 0; i < 4; i++){
+    for (var i = 0; i < Math.ceil((sentenceLength/3)); i++){
         var minkey = Math.min(... stringFreqStopStringMap.keys());
         finalArrayValues.push(stringFreqStopStringMap.get(minkey));
         stringFreqStopStringMap.delete(minkey);
@@ -24,7 +25,9 @@ function returnArrayOfLowestFourScores() {
 
 //splits the string into substrings by sentence
 function splitStringIntoArray(str) {
-    var inputArray = str.replace(/(\.+|\:|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|")
+    var inputArray = str.replace(/(\.+|\:|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|");
+    sentenceLength = inputArray.length;
+    firstSentence = inputArray[0];
     return inputArray;
 }
 
