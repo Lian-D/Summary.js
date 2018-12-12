@@ -9,8 +9,8 @@ function gist() {
     var arrList = splitStringIntoArray(input);
     analyzeArrayforStopWords(arrList);
     var gist = returnArrayOfLowestFourScores().join(" ");
-
     document.getElementById('gist').value = (firstSentence+ " ").concat(gist);
+
 }
 function returnArrayOfLowestFourScores() {
     var finalArrayValues = []
@@ -26,8 +26,9 @@ function returnArrayOfLowestFourScores() {
 //splits the string into substrings by sentence
 function splitStringIntoArray(str) {
     var inputArray = str.replace(/(\.+|\:|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|");
-    sentenceLength = inputArray.length;
-    firstSentence = inputArray[0];
+    firstSentence = inputArray[0]
+    inputArray.shift();
+    sentenceLength = (inputArray.length - 1);
     return inputArray;
 }
 
