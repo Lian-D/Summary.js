@@ -25,7 +25,7 @@ function returnArrayOfLowestFourScores() {
 
 //splits the string into substrings by sentence
 function splitStringIntoArray(str) {
-    var inputArray = str.replace(/(\.+|\:|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|");
+    var inputArray = str.replace(/(\.+|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|");
     firstSentence = inputArray[0]
     inputArray.shift();
     sentenceLength = (inputArray.length - 1);
