@@ -1,33 +1,46 @@
 var stringFreqStopStringMap = new Map([]);
 var sentenceLength = 0
-var firstSentence = null
+var firstSentence = null;
 
-function gist() {
-    stringFreqStopStringMap = new Map([])
-    alert("Analyzing");
-    const input = document.getElementById('paragraph').value;
-    var arrList = splitStringIntoArray(input);
+
+function gist(input) {
+    //splits the article into setences
+    var arrList = splitStringIntoSentenceArray(input);
+
+    //Take the list of
     analyzeArrayforStopWords(arrList);
-    var gist = returnArrayOfLowestFourScores().join(" ");
+    var gist = (firstSentence+ " ").concat(returnArrayOfLowestScores().join(" "));
+
+    document.getElementById('gist').value = gist
+}
+
+function summarizeParagraph() {
+    //Initializes the Map for scoring frequencies
+    stringFreqStopStringMap = new Map([])
+
+    //splits the article into setences
+    var arrList = splitStringIntoSentenceArray(input);
+
+    //Take the list of
+    analyzeArrayforStopWords(arrList);
+    var gist = returnArrayOfLowestScores().join(" ");
+
     document.getElementById('gist').value = (firstSentence+ " ").concat(gist);
-
 }
-function returnArrayOfLowestFourScores() {
-    var finalArrayValues = []
-
-    for (var i = 0; i < Math.ceil((sentenceLength/3)); i++){
-        var minkey = Math.min(... stringFreqStopStringMap.keys());
-        finalArrayValues.push(stringFreqStopStringMap.get(minkey));
-        stringFreqStopStringMap.delete(minkey);
-    }
-    return finalArrayValues;
+//splits into paragraphs.
+function splitStringIntoParagraphArray(str) {
+    var inputParagraphArray = str.split(/\W+/);
+    return inputParagraphArray;
 }
-
 //splits the string into substrings by sentence
-function splitStringIntoArray(str) {
+function splitStringIntoSentenceArray(str) {
     var inputArray = str.replace(/(\.+|\!|\?)(\"*|\'*|\)*|}*|]*)(\s|\n|\r|\r\n)/gm, "$1|").split("|");
+
+    //Grabs the first chunk of the sentence and removes it from being cycled
     firstSentence = inputArray[0]
     inputArray.shift();
+
+    //This provides the sentence length we need.
     sentenceLength = (inputArray.length - 1);
     return inputArray;
 }
@@ -68,15 +81,15 @@ function scoreArray(str, arr) {
     }
     return strValue;    
 }
+function returnArrayOfLowestScores() {
+    var finalArrayValues = []
 
-// function containsAny(str, arr) {
-//     var contains = true
-//     for (var i = 0; i < arr.length; i++){
-//         if (str.includes(arr[i]+" ")){
-//             contains = false;
-//             return contains;
-//         }
-//     }
-//     return contains;
-// }
+    for (var i = 0; i < Math.ceil((sentenceLength/3)); i++){
+        var minkey = Math.min(... stringFreqStopStringMap.keys());
+        finalArrayValues.push(stringFreqStopStringMap.get(minkey));
+        stringFreqStopStringMap.delete(minkey);
+    }
+    return finalArrayValues;
+}
+
 
