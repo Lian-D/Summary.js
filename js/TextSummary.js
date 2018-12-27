@@ -15,7 +15,7 @@ function paragraphSummary(paragraph) {
     var firstSentence = null;
 
     //splits the article into sentences and replaces common Abbreivations
-    paragraph = paragraph.replace(" U.S.", "US");
+    paragraph = paragraph.replace(" U.S.", " US");
     paragraph = paragraph.replace(" Dr.", " Dr");
     paragraph = paragraph.replace(" Mr.", " Mr");
     paragraph = paragraph.replace(" Ms.", " Ms");
