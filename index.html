@@ -5,7 +5,7 @@
     <title>Give me the gist of this text....</title>
 
 </head>
-<script src="js/gist.js"></script>
+<script src="js/TextSummary.js"></script>
 <body background="resources/backgrounds-blank-blue-953214.jpg">
 <div align="center">
     <!--Text box for input-->
@@ -15,7 +15,7 @@
 </div>
 <div align="center">
     <!--Button to analyze the input textbox-->
-    <button onclick="gist(document.getElementById('paragraph').value)">Give me the gist</button>
+    <button onclick="document.getElementById('gist').value = textSummary(document.getElementById('paragraph').value)">Give me the gist</button>
 </div>
 <div align="center">
     <!--Text box for output-->
