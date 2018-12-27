@@ -21,6 +21,7 @@ function paragraphSummary(paragraph) {
     paragraph = paragraph.replace(" Ms.", " Ms");
     paragraph = paragraph.replace(" Mrs.", " Mrs");
     paragraph = paragraph.replace(" Gen.", " General");
+    paragraph = paragraph.replace(".)", ").");
     var arrList = splitStringIntoSentenceArray(paragraph);
 
     //Take the list of
