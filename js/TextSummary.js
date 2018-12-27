@@ -1,6 +1,6 @@
 function textSummary(input) {
     var finalSummary = [];
-    var paragraphArray = input.split(/\n \n /).filter(v => v !== "");
+    var paragraphArray = input.split(/\n/).filter(v => v !== "");
 
     for (var i = 0; i < paragraphArray.length; i++) {
         finalSummary.push(paragraphSummary(paragraphArray[i]));
