@@ -47,15 +47,15 @@ function paragraphSummary(paragraph) {
     var firstSentence = null;
 
     //splits the article into sentences and replaces common abbreviations.
-    paragraph = paragraph.replace(/" U.S."/g, " US");
-    paragraph = paragraph.replace(/" Dr."/g, " Dr");
-    paragraph = paragraph.replace(/" Mr."/g, " Mr");
-    paragraph = paragraph.replace(/" Ms."/g, " Ms");
-    paragraph = paragraph.replace(/" Mrs."/g, " Mrs");
-    paragraph = paragraph.replace(/" Gen."/g, " General");
-    paragraph = paragraph.replace(/" Sen."/g, " Senator");
-    paragraph = paragraph.replace(".)", ").");
-    paragraph = paragraph.replace(/\d+\./gi, "");
+    paragraph = paragraph.replace(/U\.S\./g, " US");
+    paragraph = paragraph.replace(/ Dr\./g, " Dr");
+    paragraph = paragraph.replace(/ Mr\./g, " Mr");
+    paragraph = paragraph.replace(/ Ms\./g, " Ms");
+    paragraph = paragraph.replace(/ Mrs\./g, " Mrs");
+    paragraph = paragraph.replace(/ Gen\./g, " General");
+    paragraph = paragraph.replace(/ Sen\./g, " Senator");
+    paragraph = paragraph.replace(/\.\)/, ")\.");
+    paragraph = paragraph.replace(/[\d]+\./gi, "")
     var arrList = splitStringIntoSentenceArray(paragraph);
 
     //Take the list of stop words and analyzes them for whether or not they contain any stop words
