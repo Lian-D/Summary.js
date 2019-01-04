@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/TextSummary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -73,9 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="744" />
-    <option name="y" value="-15" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="344" />
+    <option name="y" value="-29" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -165,12 +165,12 @@
       <workItem from="1545247350221" duration="4676000" />
       <workItem from="1545945507810" duration="7199000" />
       <workItem from="1545955060028" duration="43000" />
-      <workItem from="1546562859060" duration="7725000" />
+      <workItem from="1546562859060" duration="8701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42760000" />
+    <option name="totallyTimeSpent" value="43736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,7 +217,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/TextSummary.js</url>
-          <line>157</line>
+          <line>158</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -253,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/TextSummary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
         </state>
       </provider>
     </entry>
