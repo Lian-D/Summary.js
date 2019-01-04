@@ -55,7 +55,7 @@ function paragraphSummary(paragraph) {
     paragraph = paragraph.replace(/" Gen."/g, " General");
     paragraph = paragraph.replace(/" Sen."/g, " Senator");
     paragraph = paragraph.replace(".)", ").");
-    paragraph = paragraph.replace(/[0-9]\./gi, "");
+    paragraph = paragraph.replace(/\d\./gi, "");
     var arrList = splitStringIntoSentenceArray(paragraph);
 
     //Take the list of stop words and analyzes them for whether or not they contain any stop words
