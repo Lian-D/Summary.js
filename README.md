@@ -1,4 +1,4 @@
-# TextSummary
+# Artice Trimmer
 # How it works
 # Usage
 # Sources
