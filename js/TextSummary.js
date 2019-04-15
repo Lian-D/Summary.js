@@ -111,7 +111,7 @@ function paragraphSummary(paragraph) {
         function returnArrayOfLowestScores() {
             var finalArrayValues = []
 
-            for (var i = 0; i < Math.ceil((sentenceLength / 3)); i++) {
+            for (var i = 0; i < Math.ceil((sentenceLength / 3))-1; i++) {
                 var maxkey = Math.max(...stringFreqStopStringMap.keys());
                 finalArrayValues.push(stringFreqStopStringMap.get(maxkey));
                 stringFreqStopStringMap.delete(maxkey);
