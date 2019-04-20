@@ -17,7 +17,7 @@ const stopWords = ["I", "me", "mine", "myself", "we", "us", "ourselves ",
     "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in",
     "out", "on", "off", "over", "under", "again", "then", "once", "here", "there", "when",
     "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no",
-    "nor", "not", "only", "own", "same", "so", "than", "too", "very", "a", "s", "the", "The", "IT", "it", "S", "'s"];
+    "nor", "not", "only", "own", "same", "so", "than", "too", "very", "a", "the", "The", "IT", "it"];
 
 //Global Variable of Characters
 let characterCount = 0;
@@ -37,7 +37,9 @@ function textSummary(input) {
     }
     var summary = finalSummary.join("\n");
     summaryCount = summary.length;
-    return ("KEYWORDS: ").concat(topWords.join(", ")+("\nReduced by: "+Math.ceil(100 - (10*(characterCount / summaryCount)))+"% ")+ "\n ======================================================================================================\n \nSummary: " + summary);
+    return ("KEYWORDS: ").concat(topWords.join(", ")
+        // +("\nReduced by: "+Math.ceil(100 - (10*(characterCount / summaryCount)))+"% ")
+    + "\n ======================================================================================================\n" + summary);
 }
 
 //Effects Summarizes an individual paragraph of text
@@ -47,15 +49,14 @@ function paragraphSummary(paragraph) {
     var firstSentence = null;
 
     //splits the article into sentences and replaces common abbreviations.
-    paragraph = paragraph.replace(/U\.S\./g, " US");
-    paragraph = paragraph.replace(/ Dr\./g, " Dr");
-    paragraph = paragraph.replace(/ Mr\./g, " Mr");
-    paragraph = paragraph.replace(/ Ms\./g, " Ms");
-    paragraph = paragraph.replace(/ Mrs\./g, " Mrs");
-    paragraph = paragraph.replace(/ Gen\./g, " General");
-    paragraph = paragraph.replace(/ Sen\./g, " Senator");
+    paragraph = paragraph.split("U\.S\.").join("US");
+    paragraph = paragraph.split("Dr\.").join("Dr");
+    paragraph = paragraph.split("Mr\.").join("Mr");
+    paragraph = paragraph.split("Ms\.").join("Ms");
+    paragraph = paragraph.split("Mrs\.").join("Mrs");
+    paragraph = paragraph.split("Sen\.").join("Senator");
     paragraph = paragraph.replace(/\.\)/, ")\.");
-    paragraph = paragraph.replace(/[\d]+\./gi, "")
+    paragraph = paragraph.replace(/[\d]+\./gi, "");
     var arrList = splitStringIntoSentenceArray(paragraph);
 
     //Take the list of stop words and analyzes them for whether or not they contain any stop words
@@ -125,7 +126,7 @@ function paragraphSummary(paragraph) {
         var matches;
 
         for (var i = 0; i< stopWords.length; i++){
-            text = text.replace(new RegExp(" "+stopWords[i]+" ", "g"), " ");
+            text = text.split(" "+stopWords[i]+" ").join("");
         }
 
         while ((matches = wordRegExp.exec(text)) != null) {
@@ -152,9 +153,13 @@ function paragraphSummary(paragraph) {
             topWords.push(wordList[i][0]);
         }
         for (var i =0; i < topWords.length-1; i++){
-            if (topWords[i] == "s"){
+            if (topWords[i] === "s"){
                 topWords.splice(i,1);
             }
         }
         return topWords
+    }
+
+    function replaceAll(str, find, replace) {
+        return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
     }
