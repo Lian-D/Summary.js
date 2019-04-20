@@ -1,4 +1,6 @@
 # Artice Trimmer
+I'm editing this so it's not static 
+
 # How it works
 # Usage
 # Sources
