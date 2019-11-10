@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599ca707-84af-4264-bbef-d7e723390f6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/summary_legacy_minified.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
@@ -65,19 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/summary_minified.js">
+        <entry file="file://$PROJECT_DIR$/dist/summary_legacy.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5537" selection-start-column="5536" selection-end-column="5537" />
+              <caret selection-end-line="164" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/summary_legacy.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/summary_legacy_minified.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="165" selection-end-line="165" />
+            <state>
+              <caret column="2691" lean-forward="true" selection-start-column="2691" selection-end-column="2691" />
             </state>
           </provider>
         </entry>
@@ -156,6 +153,7 @@
         <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/css/layout.css" />
+        <option value="$PROJECT_DIR$/dist/summary_legacy_minified.js" />
       </list>
     </option>
   </component>
@@ -277,12 +275,12 @@
       <workItem from="1555798270087" duration="171000" />
       <workItem from="1560626524044" duration="14000" />
       <workItem from="1573337440737" duration="16576000" />
-      <workItem from="1573354813887" duration="1045000" />
+      <workItem from="1573354813887" duration="1119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64925000" />
+    <option name="totallyTimeSpent" value="64999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,13 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5537" selection-start-column="5536" selection-end-column="5537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/summary_legacy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="165" selection-end-line="165" />
         </state>
       </provider>
     </entry>
@@ -432,6 +423,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/summary_legacy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="164" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/summary_legacy_minified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2691" lean-forward="true" selection-start-column="2691" selection-end-column="2691" />
         </state>
       </provider>
     </entry>
