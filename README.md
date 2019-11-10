@@ -28,7 +28,9 @@ Include files:
 summarize(text, sentences, keywordsInt);
 ```
 where text is the input text
+
 sentences is the number of sentences you want to return
+
 keywordsInt is the number of keywords you want to factor in during the scoring process
 
 This will return an object:
