@@ -1,1 +1,5 @@
-language: JavaScript
+language: node_js
+node_js:
+  - 7
+script:
+  - "node summary.js"
