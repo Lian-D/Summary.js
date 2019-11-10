@@ -1,10 +1,10 @@
 # Summary.js #
-
 ![](https://api.travis-ci.org/Lian-D/Summary.JS.svg?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
- 
+A lightweight paragraph summarizer library that can be manipulated to preferred specifications. Utilizing the lex rank algorithm to score sentences 
  - [Demo](https://lian-d.github.io/Summary.js/)
  
+
  ## Main
 
  ```text
@@ -21,7 +21,6 @@ Include files:
 <script src="/path/to/summary.js"></script>
 
 ```
-
 ### Usage
 ```js
 summarize(text, sentences, keywordsInt);
@@ -40,7 +39,13 @@ characterOrig: the number of words in the original summary
 reductionfactor: the % reduction factor
 }
 ```
-
+## How does it work?
+The core algorithm works in a couple of steps
+1. Calculate the occurrence of each word in the text.
+2. Detect which periods represent the end of a sentence. (e.g "Dr." does not).
+3. Split up the text into individual sentences.
+4. Rank sentences by the sum of their words' points and keyword points.
+5. Return X of the most highly ranked sentences in chronological order.
 
 ## Contributing
 
