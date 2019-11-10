@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599ca707-84af-4264-bbef-d7e723390f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/summary_legacy_minified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/summary_legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/summary_legacy_minified.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/summary_legacy_minified.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="2691" lean-forward="true" selection-start-column="2691" selection-end-column="2691" />
+              <caret column="2692" selection-start-column="2692" selection-end-column="2692" />
             </state>
           </provider>
         </entry>
@@ -95,20 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/summary.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/summary_legacy_minified.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
+            <state>
+              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/summary_minified.js">
+        <entry file="file://$PROJECT_DIR$/dist/summary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5439" selection-start-column="5439" selection-end-column="5439" />
+            <state relative-caret-position="476">
+              <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -205,17 +206,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Dev\ArticleTrim\js" />
-      <recent name="C:\Dev\ArticleTrim\dist" />
-      <recent name="C:\Dev\ArticleTrim" />
-      <recent name="C:\Users\Lian\WebstormProjects\Paragraph Gist" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\ArticleTrim\dist" />
       <recent name="C:\Dev\ArticleTrim\js" />
       <recent name="C:\Dev\ArticleTrim\resources" />
       <recent name="C:\Users\Lian\Documents\GitHub\TextSummary\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\ArticleTrim\js" />
+      <recent name="C:\Dev\ArticleTrim\dist" />
+      <recent name="C:\Dev\ArticleTrim" />
+      <recent name="C:\Users\Lian\WebstormProjects\Paragraph Gist" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,12 +276,12 @@
       <workItem from="1555798270087" duration="171000" />
       <workItem from="1560626524044" duration="14000" />
       <workItem from="1573337440737" duration="16576000" />
-      <workItem from="1573354813887" duration="1119000" />
+      <workItem from="1573354813887" duration="1172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64999000" />
+    <option name="totallyTimeSpent" value="65052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,20 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5537" selection-start-column="5536" selection-end-column="5537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/summary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="212" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#sanitizeString#0" />
-            <element signature="n#!!doc;n#getKeywords#0" />
-            <element signature="n#!!block;n#getKeywords#0" />
-            <element signature="n#!!block;n#splitStringIntoSentenceArray#0" />
-            <element signature="n#!!doc;n#summarize#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +423,28 @@
     <entry file="file://$PROJECT_DIR$/dist/summary_legacy_minified.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2691" lean-forward="true" selection-start-column="2691" selection-end-column="2691" />
+          <caret column="2692" selection-start-column="2692" selection-end-column="2692" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/summary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="212" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#sanitizeString#0" />
+            <element signature="n#!!doc;n#getKeywords#0" />
+            <element signature="n#!!block;n#getKeywords#0" />
+            <element signature="n#!!block;n#splitStringIntoSentenceArray#0" />
+            <element signature="n#!!doc;n#summarize#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/summary_legacy_minified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
