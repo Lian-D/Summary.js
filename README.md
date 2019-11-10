@@ -3,7 +3,9 @@
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
  
  
-A lightweight paragraph summarizer library that can be manipulated to preferred specifications. Utilizing the lex rank algorithm to score sentences 
+A lightweight paragraph summarizer library which can be manipulated to preferred specifications. Utilizing the lex rank algorithm to score sentences 
+Total file size < 10 kb
+
  - [Demo](https://lian-d.github.io/Summary.js/)
  
 
