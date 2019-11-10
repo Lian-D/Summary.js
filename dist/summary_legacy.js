@@ -26,7 +26,7 @@ let characterCount = 0;
 let summaryCount = 0;
 
 //Effects: Summarizes the text and returns a string of said summary
-function textSummary(input) {
+function summary_legacy(input) {
     characterCount = input.length;
     topWords = getTopNWords(input, 4);
     var finalSummary = [];

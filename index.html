@@ -2,28 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Give me the gist of this text....</title>
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Summary.JS by Lian Duan</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Favicons
+     ================================================== -->
+    <link rel="shortcut icon" href="favicon.png">
 
 </head>
-<script src="js/TextSummary.js"></script>
-<body background="resources/backgrounds-blank-blue-953214.jpg">
-<div align="center">
-    <!--Text box for input-->
-    <p style="font-family: Roboto;color:dimgrey;size: 150px"><b>Please enter your text here</b></p>
 
-    <textarea id = "paragraph" style="height:400px; width:800px;font-family: Roboto" ></textarea>
-</div>
-<div align="center">
-    <!--Button to analyze the input textbox-->
-    <button onclick="document.getElementById('gist').value = textSummary(document.getElementById('paragraph').value)">Give me the gist</button>
-</div>
-<div align="center">
-    <!--Text box for output-->
-    <p style="font-family: Roboto;color:dimgrey;size: 150px"><b>Here's the gist of it</b></p>
-    <textarea readonly id = "gist" name="gist" style="height:400px; width:800px;font-family: Roboto"></textarea>
-</div>
-</body>
+<!-- Header ================================================== -->
+
+<script src="js/summary_minified.js"></script>
+
+<!-- Header ================================================== -->
+<nav id="nav-wrap">
+    <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+    <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+`
+    <ul id="nav" class="nav">
+        <li><a class="smoothscroll" href="https://lian-d.github.io/">Back to Home</a></li>
+        <li class="current"><a class="smoothscroll" href="#about">Summary.JS Demo</a></li>
+        <li><a class="smoothscroll" href="#resume">Open Source Repository</a></li>
+    </ul> <!-- end #nav -->
+</nav> <!-- end #nav-wrap -->
+
+<!-- Header ================================================== -->
+<section id="about">
+    <div align="center" style="padding-top: 10px">
+        <img src="resources/summaryJS.png">
+        <!--Text box for input-->
+        <div align="centre">
+            <p style="font-family: Roboto;color:dimgrey;font-size: x-large"> This is the <input id="sentence"
+                    style="font-family: Roboto;color:dimgrey;font-size: x-large; width: 50px; height: 25px" ; value=7
+                    type="number" name="number"> sentence long summary</p>
+        </div>
+
+        <textarea id="paragraph" style="height:510px; width:800px;font-family: Roboto;"></textarea>
+    </div>
+    <div align="center">
+        <!--Button to analyze the input textbox-->
+        <button onclick="document.getElementById('paragraph').value = summarize(document.getElementById('paragraph').value, document.getElementById('sentence').value, 6).text">
+            Summarize It!
+        </button>
+    </div>
+</section>
+
+
 <footer>
 </footer>
+</body>
 </html>
 

@@ -2,8 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599ca707-84af-4264-bbef-d7e723390f6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/css/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/css/fontello-codes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/css/fontello-embedded.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/css/fontello-ie7-codes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/css/fontello-ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/css/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/font/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/font/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/font/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fontello/font/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/summary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/summary_minified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/sendEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/summary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/summary_minified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/SummaryJS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Paragraph-Gist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/summaryJS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/TextSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/TextSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Paragraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/TextSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/summary_legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/backgrounds-blank-blue-953214.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,41 +132,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="143" selection-start-line="17" selection-start-column="143" selection-end-line="17" selection-end-column="143" />
+            <state relative-caret-position="306">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/summary_minified.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5537" selection-start-column="5536" selection-end-column="5537" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12240" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="203" column="5" selection-start-line="203" selection-start-column="5" selection-end-line="203" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/summary_legacy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="165" selection-end-line="165" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/summary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="212" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#sanitizeString#0" />
+                <element signature="n#!!doc;n#getKeywords#0" />
+                <element signature="n#!!block;n#getKeywords#0" />
+                <element signature="n#!!block;n#splitStringIntoSentenceArray#0" />
+                <element signature="n#!!doc;n#summarize#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/TextSummary.js">
+        <entry file="file://$PROJECT_DIR$/dist/summary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="133" column="52" lean-forward="true" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Paragraph.js">
+        <entry file="file://$PROJECT_DIR$/dist/summary_minified.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Article.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret column="5439" selection-start-column="5439" selection-end-column="5439" />
             </state>
           </provider>
         </entry>
@@ -71,6 +225,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>the</find>
+      <find>She</find>
+      <find>The tossed ball rises and seems for a second to hang, waiting, cooperating, as balls always seem to do for great players.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,26 +241,50 @@
         <option value="$PROJECT_DIR$/js/ParagraphSummarizer.js" />
         <option value="$PROJECT_DIR$/js/SummarizeText.js" />
         <option value="$PROJECT_DIR$/js/gist.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/Paragraph.js" />
         <option value="$PROJECT_DIR$/js/Article.js" />
         <option value="$PROJECT_DIR$/js/TextSummary.js" />
+        <option value="$PROJECT_DIR$/js/summary.js" />
+        <option value="$PROJECT_DIR$/dist/summary.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/dist/summary_minified.js" />
+        <option value="$PROJECT_DIR$/js/summary_minified.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="511" />
+    <option name="y" value="18" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="summaryJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArticleTrim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="summaryJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArticleTrim" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="summaryJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArticleTrim" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,11 +295,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lian\Documents\GitHub\TextSummary\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\ArticleTrim\js" />
+      <recent name="C:\Dev\ArticleTrim\dist" />
+      <recent name="C:\Dev\ArticleTrim" />
       <recent name="C:\Users\Lian\WebstormProjects\Paragraph Gist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\ArticleTrim\dist" />
+      <recent name="C:\Dev\ArticleTrim\js" />
+      <recent name="C:\Dev\ArticleTrim\resources" />
+      <recent name="C:\Users\Lian\Documents\GitHub\TextSummary\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -134,11 +320,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Gist/index.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/untitled1/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="summaryNode.js" type="NodeJSConfigurationType" path-to-js-file="js/summary.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -173,11 +362,14 @@
       <workItem from="1555284795721" duration="1066000" />
       <workItem from="1555727549849" duration="139000" />
       <workItem from="1555727928089" duration="676000" />
+      <workItem from="1555798270087" duration="171000" />
+      <workItem from="1560626524044" duration="14000" />
+      <workItem from="1573337440737" duration="16470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47119000" />
+    <option name="totallyTimeSpent" value="63774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,13 +382,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49894625" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,11 +414,6 @@
           <line>74</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/TextSummary.js</url>
-          <line>159</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -236,19 +424,6 @@
     <entry file="file://$PROJECT_DIR$/js/ParagraphSummarizer.js" />
     <entry file="file://$PROJECT_DIR$/js/gist.js" />
     <entry file="file://$PROJECT_DIR$/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="143" selection-start-line="17" selection-start-column="143" selection-end-line="17" selection-end-column="143" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Paragraph.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -263,10 +438,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/TextSummary.js">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="133" column="52" lean-forward="true" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
+        <state relative-caret-position="391">
+          <caret line="203" column="5" selection-start-line="203" selection-start-column="5" selection-end-line="203" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/loader.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/header-background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/overlay-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/overlay-zoom.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sample-image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/summary_minified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5439" selection-start-column="5439" selection-end-column="5439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/summary_minified.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5537" selection-start-column="5536" selection-end-column="5537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/summary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="212" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#sanitizeString#0" />
+            <element signature="n#!!doc;n#getKeywords#0" />
+            <element signature="n#!!block;n#getKeywords#0" />
+            <element signature="n#!!block;n#splitStringIntoSentenceArray#0" />
+            <element signature="n#!!doc;n#summarize#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/summary_legacy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/summary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
         </state>
       </provider>
     </entry>
