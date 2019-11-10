@@ -10,7 +10,7 @@ Total file size < 10 kb
  - [Demo](https://lian-d.github.io/Summary.js/)
  
 
- ## Main
+### Main
 
  ```text
 dist/
