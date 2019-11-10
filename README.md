@@ -46,7 +46,7 @@ characterOrig: the number of words in the original summary
 reductionfactor: the % reduction factor
 }
 ```
-## How does it work?
+### How does it work?
 The core algorithm works in a couple of steps
 1. Calculate the occurrence of each word in the text.
 2. Detect which periods represent the end of a sentence. (e.g "Dr." does not).
@@ -54,6 +54,6 @@ The core algorithm works in a couple of steps
 4. Rank sentences by the sum of their words' points and keyword points.
 5. Return X of the most highly ranked sentences in chronological order.
 
-## Contributing
+### Contributing
 
 Please read through our [contributing guidelines](CONTRIBUTING.md).
