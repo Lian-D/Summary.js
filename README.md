@@ -18,6 +18,7 @@ dist/
 ├── summary_minfied.js    (UMD, compressed)
 ├── summary_legacy.js s (Old legacy summarizer)
 └── summary_legacy_minfied.js    (Old legacy summarizer, compressed)
+├── summary_node.js        (Node.js module)
 ```
 ### Installation
 Include files:
