@@ -3,7 +3,7 @@
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
  
  
-A lightweight paragraph summarizer library which can be manipulated to preferred specifications. Utilizing the lex rank algorithm to score sentences. 
+A lightweight paragraph summarizer library which can be manipulated to preferred specifications. Utilizing the lex rank algorithm to score sentences. Not as effective as using TensorFlow and NLM but provides a nice middle ground.
 
 Total file size < 10 kb
 
