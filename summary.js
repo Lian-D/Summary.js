@@ -130,7 +130,7 @@ function getKeywords(text, n) {
     });
 
     var topWords = [];
-    for (var i = 0; i < n; i++) {
+    for (var i = 0; i < (n && wordList.length); i++) {
         topWords.push(wordList[i][0]);
     }
     console.log(topWords);
